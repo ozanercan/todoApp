@@ -8,5 +8,5 @@ Kullanılanlar;
 - Font Awesome
 - Json
 
-Preview
-![Image](https://raw.githubusercontent.com/ozanercan/todoApp/master/preview.JPG)
+Click on the picture for live preview.
+[![Image](https://raw.githubusercontent.com/ozanercan/todoApp/master/preview.JPG)](https://ozanercan.com.tr/demos/todoapp/ "Live Preview")
