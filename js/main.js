@@ -207,7 +207,7 @@ function getCompletedTasks(){
                 </div>
                 <div class="col-1 p-0 h-100">
                     <a class="btn btn-warning btn-undo px-0 w-100 h-100">
-                    <i class="far fa-check-square"></i>
+                    <i class="fas fa-reply-all"></i>
                     </a>
                 </div>
                 <div class="col-1 p-0 h-100">
