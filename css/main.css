@@ -1,0 +1,25 @@
+.completedTasks {
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #198754;
+    color: rgb(209, 209, 209);
+}
+
+.uncompletedTasks {
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.task {
+    padding-top: 5px;
+    border-radius: 5px;
+    min-height: 5vh;
+    align-items: center;
+}
+
+.task-content {
+    margin-left: 10px;
+    font-size: 1vw;
+}

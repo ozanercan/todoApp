@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="css/alertify.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="fs-5 text-center border border-secondary bg-warning text-white">
+           Todo App
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <div id="uncompletedTasks">
+            <h1 class="display-6 fs-4 text-center text-dark">Tamamlanmamış Görevler</h1>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <div id="completedTasks">
+            <h1 class="display-6 fs-4 text-center text-dark">Tamamlanmış Görevler</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <a class="btn btn-success" onclick="newTaskModal()">Yeni Görev Oluştur</a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/alertify.min.js"></script>
+    <script type="text/javascript" src="node_modules/uuid-random/uuid-random.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
